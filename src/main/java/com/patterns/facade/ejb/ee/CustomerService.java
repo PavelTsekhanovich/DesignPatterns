@@ -1,9 +1,15 @@
 package com.patterns.facade.ejb.ee;
 
+import javax.ejb.Stateless;
+
+@Stateless
 public class CustomerService {
 
-    public long gerCustomer(int sessionID){
+    public long getCustomer(int sessionID){
         return 100005L;
     }
 
+    public boolean checkId(long x){
+        return true;
+    }
 }
