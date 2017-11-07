@@ -11,7 +11,7 @@ public class UserService {
         this.udr = udr;
     }
 
-    public void  persistUser(User user){
+    public void persistUser(User user){
         udr.save(user);
     }
 }

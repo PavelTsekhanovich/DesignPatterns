@@ -8,6 +8,9 @@ import javax.inject.Named;
 @Named("UserDataRepositoryMongo")
 public class UserDataRepositoryMongo implements UserDataRepository{
 
+    @Mongo
+    private UserDataRepository udr;
+
     @Override
     @Named
     public void save(User user) {
