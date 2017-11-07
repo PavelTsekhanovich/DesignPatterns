@@ -1,4 +1,4 @@
-package com.patterns.factory.simple;
+package com.patterns.factory.simple.normal;
 
 public class Start {
 
@@ -14,7 +14,6 @@ public class Start {
         car.drive();
         car.stop();
 
-
-        car = carSelector.getCar(RoadType.GAZON);
+        car = carSelector.getCar(RoadType.LAWN);
     }
 }

@@ -1,4 +1,4 @@
-package com.patterns.factory.simple;
+package com.patterns.factory.simple.normal;
 
 public interface Car {
 

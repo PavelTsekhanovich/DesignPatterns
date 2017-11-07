@@ -1,4 +1,4 @@
-package com.patterns.factory.simple;
+package com.patterns.factory.simple.normal;
 
 public class Porsche implements Car{
 

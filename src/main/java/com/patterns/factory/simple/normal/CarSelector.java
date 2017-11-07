@@ -1,4 +1,4 @@
-package com.patterns.factory.simple;
+package com.patterns.factory.simple.normal;
 
 public class CarSelector {
 
@@ -11,7 +11,7 @@ public class CarSelector {
             case OFF_ROAD:
                 car = new Geep();
                 break;
-            case GAZON:
+            case LAWN:
                 car = new NewGeep();
                 break;
         }
