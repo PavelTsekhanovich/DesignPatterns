@@ -1,6 +1,6 @@
-package com.patterns.factory.se.book.abstractfactory.transport.impl.car;
+package com.patterns.factory.se.course.abstractfactory.transport.impl.car;
 
-import com.patterns.factory.se.book.abstractfactory.transport.interfaces.Car;
+import com.patterns.factory.se.course.abstractfactory.transport.interfaces.Car;
 
 public class Niva implements Car{
 

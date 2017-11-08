@@ -1,8 +1,8 @@
-package com.patterns.factory.se.book.abstractfactory;
+package com.patterns.factory.se.course.abstractfactory;
 
-import com.patterns.factory.se.book.abstractfactory.factory.impl.RussianFactory;
-import com.patterns.factory.se.book.abstractfactory.factory.impl.USAFactory;
-import com.patterns.factory.se.book.abstractfactory.factory.interfaces.TransportFactory;
+import com.patterns.factory.se.course.abstractfactory.factory.impl.RussianFactory;
+import com.patterns.factory.se.course.abstractfactory.factory.impl.USAFactory;
+import com.patterns.factory.se.course.abstractfactory.factory.interfaces.TransportFactory;
 
 public class Start {
 

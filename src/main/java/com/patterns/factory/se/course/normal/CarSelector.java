@@ -1,4 +1,4 @@
-package com.patterns.factory.se.book.normal;
+package com.patterns.factory.se.course.normal;
 
 public class CarSelector {
 
