@@ -1,11 +1,12 @@
 package com.patterns.factory.ee.factory4;
 
+import com.patterns.factory.ee.factory3.Message;
+import com.patterns.factory.ee.factory3.MessageType;
+
 import javax.ejb.TransactionAttribute;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ejb.TransactionAttributeType;
-import com.devchronicles.factory3.MessageType;
-import com.devchronicles.factory3.Message;
 
 @TransactionAttribute(TransactionAttributeType.REQUIRED)
 @ApplicationScoped
