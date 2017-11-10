@@ -7,7 +7,7 @@ public class Service {
     @Inject
     private Message message;
 
-    public void showMessage(){
+    public void showMessage() {
         System.out.println(message.getMessage());
     }
 }
