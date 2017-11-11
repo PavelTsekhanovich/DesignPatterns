@@ -8,9 +8,18 @@
         <filter-name>LineSsoFilter</filter-name>
         <filter-class>com.patterns.interceptor.filter.SecurityFilter</filter-class>
     </filter>
-
     <filter-mapping>
         <filter-name>LineSsoFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+
+    <servlet>
+        <servlet-name>frontController</servlet-name>
+        <servlet-class>com.patterns.mvc.plain.FrontController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>frontController</servlet-name>
+        <url-pattern>/users/*</url-pattern>
+    </servlet-mapping>
+
 </web-app>
